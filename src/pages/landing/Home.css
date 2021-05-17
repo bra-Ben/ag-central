@@ -1,0 +1,49 @@
+.home-main {
+    height: 850px;
+    width: 100%;
+    background: url('../../images/church.jpg');
+    background-color: #fec40e;
+    /* background-position: center; */
+    /* background-position: center; */
+    position: relative;
+    clear: both;
+    /* display: block; */
+}
+
+
+
+.mycolor {
+
+    background-image: linear-gradient(-30deg, #4e173f, #ef2f61);
+    opacity: 0.9;
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    left: 0px;
+    top: 0PX;
+    /* align-items: center; */
+}
+
+.textdiv {
+    /* background-color: #fec40e; */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 0px;
+    top: 0PX;
+}
+
+.header {
+    font-family: 'NexaBold';
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.paragraph {
+    font-size: 26px;
+    text-align: center;
+}

@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+/* IMPORT FONTS */
+/* ///////////////////////////////////////////////////////////////////// */
+
+.main {
+
+    background: #eee;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: "Segoe UI";
+}
+/* //////////////////////////////////////////////////// */
+/* HOME DIV STYLING */
+/* //////////////////////////////////////////////////////////////////// */
+
+.bottom {
+    /* background-color: #ef2f61; */
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    column-rule: 2px solid #252525;
+}
+
+.bottomleft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* background: #8dc63f; */
+    width: 20%;
+}
+
+.bottomright {
+    display: flex;
+    flex-direction: row;
+    /* background-color: lightgreen; */
+    font-size: 1.2rem;
+    width: 80%;
+
+    box-sizing: border-box;
+}
+
+.bttmrightitems {
+    /* padding: 10px; */
+    box-sizing: inherit;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.rBottom-1 {
+    width: 50%;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rBottom-2{
+    /* background-color: darkcyan; */
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    width: 50%;
+}
+
+.features-icon {
+    font-size: 100px;
+    color: white;
+}
+
+.landpara {
+    /* background-color: peru; */
+    margin: 0 10px 0 10px;
+    height: 90%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+.rght1 {
+    width: 100%;
+    height: 25%;    
+    /* border: 1px solid #252525; */
+    /* background-color: burlywood;  */
+}
+
+.rght2 {
+    /* background-color: violet; */
+    height: 25%;
+    width: 100%;
+    /* border: 1px solid #252525; */
+
+}
+
+.rght3 {
+    /* background-color: slateblue; */
+    height: 25%;
+    width: 100%;
+    /* border: 1px solid #252525; */
+
+}
+
+.rght4 {
+    /* background-color: plum; */
+    height: 25%;
+    width: 100%;
+    /* border: 1px solid #252525; */
+
+}
+/* ///////////////////////// */
+.left1 {
+    width: 100%;
+    height: 25%;    
+    /* border: 1px solid #252525; */
+
+    /* background-color: red;  */
+}
+
+.left2 {
+    /* background-color: slateblue; */
+    height: 25%;
+    width: 100%;
+    /* border: 1px solid #252525; */
+
+}
+
+.left3 {
+    /* background-color: violet; */
+    height: 25%;
+    width: 100%;
+    /* border: 1px solid #252525; */
+
+}
+
+.left4 {
+    /* background-color: darkgoldenrod; */
+    height: 25%;
+    width: 100%;
+    /* border: 1px solid #252525; */
+}
+
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+.services {
+    background-color: orangered;
+    height: 600px;
+    width: 90%;
+    margin-top: 20px;
+    display: block;
+}
+
+
+
+
+

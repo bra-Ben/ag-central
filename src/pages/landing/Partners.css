@@ -1,0 +1,34 @@
+.partners {
+    background: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.patrule {
+    border-right: 3px solid var(--tablet-background);
+    height: 80%;
+}
+.part-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.2;
+    color: var(--black-light);
+    text-transform: uppercase;
+    font-size: 22px;
+
+}
+
+.part-div {
+    border: 2px solid white;
+    flex: 0.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+

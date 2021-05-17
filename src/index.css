@@ -1,0 +1,31 @@
+@font-face {
+    font-family: NaughtyMonster;
+    src: url(./fonts/NaughtyMonster.otf);
+}
+@font-face {
+    font-family: NexaBold;
+    src: url(./fonts/Nexa\ Bold.otf);
+}
+@font-face {
+    font-family: NexaLight;
+    src: url(./fonts/Nexa\ Light.otf);
+}
+
+body {
+    --tablet-blue: #03045e;
+    --tablet-background: #eee;
+    --tablet-red: #d00000;
+    --tablet-lightblue: #48cae4;
+    --tablet-black: #111;
+    --black-light: #464646;
+}
+
+/* 
+
+
+
+ */
+
+
+
+

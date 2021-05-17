@@ -1,0 +1,94 @@
+
+.navigation {
+
+    background: #012c5e;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.h1tag {
+    font-family: 'NaughtyMonster';
+    color: white;
+    font-size: 50px;
+    /* background-color: aqua; */
+    height: 90%;
+    box-sizing: inherit;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    /* justify-content: center; */
+}
+
+/* ////////////////////////////////// */
+.listdiv {
+    /* background-color: coral; */
+    height: 90%;
+    box-sizing: inherit;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aTag {
+
+    color: white;
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    font-weight: 350;
+}
+
+.aTag:hover {
+    color: #fec40e;
+}
+/* ///////////////////////////////////////// */
+.navdiv {
+
+    display: flex;
+    align-items: flex-end;
+    /* background-color: rosybrown; */
+    height: 90%;
+    box-sizing: inherit;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbutton {
+    width: 80px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    /* background-color:#48cae4; */
+}
+
+.btn1 {
+    border-radius: 20px 0 0 20px;
+    background-color:#48cae4;
+    color: black;
+    margin-right: 2px;
+}
+
+.btn2 {
+    border-radius: 0 20px 20px 0;
+    background-color:#d00000;
+    color: white;
+}
+
+
+

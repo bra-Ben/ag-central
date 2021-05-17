@@ -1,0 +1,57 @@
+.maindash {
+    background: var(--tablet-background);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-bar {
+    background: var(--tablet-blue);
+    flex: 0.08;
+}
+
+
+.dashbottom {
+    display: flex;
+    flex: 0.92;
+}
+
+.mainside {
+    display: flex;
+    /* flex: 0.15; */
+    
+}
+
+.bottom-right {
+    display: flex;
+    flex: 0.85;
+    flex-direction: column;
+    height: inherit;
+    flex-wrap: wrap;
+    /* height: 90vh; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

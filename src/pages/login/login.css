@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.loginbackground {
+
+    background-image: linear-gradient(-30deg, #003566, #00296b );
+    background-color: aquamarine;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.formcontainer {
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 680px;
+    height: 450px;
+
+}
+
+.imagediv {
+    background: url('../../images/eug.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-color: #f8f6f6; */
+    flex: 0.6;
+
+}
+
+.form {
+
+    /* background-color: cadetblue; */
+    display: flex;
+    padding: 15px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    flex: 0.4;
+
+}
+
+
+.form-group {
+
+    margin: 10px;
+
+}
+
+.inputstyle {
+
+    width: 250px;
+    height: 30px;
+    border: 1px solid #0649b6;
+    outline: none;
+    padding-left: 7px;
+
+}
+
+::placeholder {
+    color: #e1e1e1;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    /* color: red; */
+}
+
+button {
+
+    width: 150px;
+    height: 30px;
+    outline: none;
+    margin: 10px;
+    border: none;
+    text-align: center;
+
+}
+
+.login-btn {
+
+    background-color: #ffc300;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+
+
